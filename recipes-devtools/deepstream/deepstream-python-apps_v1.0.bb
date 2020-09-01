@@ -16,7 +16,7 @@ do_install() {
 
 FILES_${PN} = "${DEEPSTREAM_PATH}sources/deepstream_python_apps"
 
-RDEPENDS_${PN} = "python3 python3-ctypes"
+RDEPENDS_${PN} = "python3 python3-ctypes deepstream-5.0-python"
 
 INHIBIT_PACKAGE_STRIP = "1"
 INHIBIT_PACKAGE_DEBUG_SPLIT = "1"
