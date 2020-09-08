@@ -36,7 +36,7 @@ PACKAGECONFIG ??= " \
 # not add GL dependencies here, since these are taken care of in -base.
 
 PACKAGECONFIG[assrender]       = "--enable-assrender,--disable-assrender,libass"
-PACKAGECONFIG[bluez]           = "--enable-bluez,--disable-bluez,${BLUEZ}"
+PACKAGECONFIG[bluez]           = "--enable-bluez,--disable-bluez,bluez5"
 PACKAGECONFIG[bz2]             = "--enable-bz2,--disable-bz2,bzip2"
 PACKAGECONFIG[curl]            = "--enable-curl,--disable-curl,curl"
 PACKAGECONFIG[dash]            = "--enable-dash,--disable-dash,libxml2"
@@ -77,7 +77,7 @@ PACKAGECONFIG[ttml]            = "--enable-ttml,--disable-ttml,libxml2 pango cai
 PACKAGECONFIG[uvch264]         = "--enable-uvch264,--disable-uvch264,libusb1 libgudev"
 PACKAGECONFIG[voaacenc]        = "--enable-voaacenc,--disable-voaacenc,vo-aacenc"
 PACKAGECONFIG[voamrwbenc]      = "--enable-voamrwbenc,--disable-voamrwbenc,vo-amrwbenc"
-PACKAGECONFIG[vulkan]          = "--enable-vulkan,--disable-vulkan,vulkan"
+PACKAGECONFIG[vulkan]          = "--enable-vulkan,--disable-vulkan,vulkan-loader"
 PACKAGECONFIG[wayland]         = "--enable-wayland,--disable-wayland,wayland-native wayland wayland-protocols libdrm"
 PACKAGECONFIG[webp]            = "--enable-webp,--disable-webp,libwebp"
 PACKAGECONFIG[webrtc]          = "--enable-webrtc,--disable-webrtc,libnice"
